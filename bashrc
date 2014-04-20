@@ -9,7 +9,7 @@ HISTFILESIZE=200000
 function mkcd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 # git convenience aliases
-alias gc="git commit"
+alias gc="git commit -m"
 alias gd="git diff"
 alias ga="git add"
 
